@@ -43,16 +43,18 @@ function getPrimes(limit, start = 2) {
 
     let primes = [];
 
+    let count = 0;
     for (let i = start; i < limit; i++) {
         let candidate = i;
-        let test = i;
+        let test = 2;
         let isPrime = true;
-        while (test > 0) {
-            if (test !== 1 && test !== candidate && candidate % test === 0) {
+        while (test < i) {
+            count++;
+            if (test !== candidate && candidate % test === 0) {
                 isPrime = false;
                 break;
             }
-            test--;
+            test++;
         }
 
         if (isPrime) {
@@ -60,6 +62,7 @@ function getPrimes(limit, start = 2) {
         }
     }
 
+    console.log(count, limit, start, primes.length, primes.toString());
     return primes;
 }
 
