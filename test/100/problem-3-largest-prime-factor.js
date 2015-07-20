@@ -62,7 +62,6 @@ function getPrimes(limit, start = 2) {
         }
     }
 
-    console.log(count, limit, start, primes.length, primes.toString());
     return primes;
 }
 
