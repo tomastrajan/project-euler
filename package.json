@@ -1,0 +1,33 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "Project Euler problem solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomastrajan/project-euler.git"
+  },
+  "keywords": [
+    "project",
+    "euler",
+    "javascript",
+    "solutions",
+    "puzzle",
+    "algorithm"
+  ],
+  "author": "Tomas Trajan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomastrajan/project-euler/issues"
+  },
+  "homepage": "https://github.com/tomastrajan/project-euler#readme",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
