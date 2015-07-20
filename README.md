@@ -1,12 +1,12 @@
-# Project Euler problem solutions in Javascript
+# Project Euler solutions in Javascript
 
-I decided to try to solve as much [Project Euler](https://projecteuler.net) puzzles as possible using Javascript (ECMAScript 2015)
+I decided to try to solve as much [Project Euler](https://projecteuler.net) puzzles as possible using Javascript (ECMAScript 2015).
 
-Use `npm test` to run all implemented solutions
+Use `npm test` to run all implemented solutions.
 
 ### Implementation
 
-Solutions are implemented directly inside of test files to make it more readable and easier to implement.
+Solutions are implemented directly inside of test files to see the problem description during actual development.
 
 - problem name is used as a first parameter of `describe` function
 - problem description is used as the first parameter of `it` function.
