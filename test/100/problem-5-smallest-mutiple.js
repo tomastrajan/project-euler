@@ -17,20 +17,24 @@ describe('Problem 5 - Smallest multiple', function() {
 });
 
 function solution(limit) {
-    let solution;
-    let i = 1;
-    while(!solution) {
-        let candidate = limit * i;
-        let isSolution = true;
-        for (let j = 2; j < limit; j++) {
-            if (candidate % j !== 0) {
-                isSolution = false;
-            }
-        }
-        if (isSolution) {
-            solution = candidate;
-        }
-        i++;
+    let result = 1;
+    for (let i = 2; i <= limit; i++) {
+        result = leastCommonMultiple(result, i);
     }
-    return solution;
+    return result;
+}
+
+
+function leastCommonMultiple(a, b) {
+    return a * b / greatestCommonFactor(a, b);
+}
+
+function greatestCommonFactor(a,b) {
+    if (a === 0) {
+        return b;
+    }
+    if (b === 0) {
+        return a;
+    }
+    return greatestCommonFactor(b, a % b);
 }
