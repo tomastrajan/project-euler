@@ -29,9 +29,6 @@ function solution(numberOfDigits) {
             let candidate = i * j;
             if (isPalindrome(candidate)) {
                 result = result > candidate ? result : candidate;
-                if (result === 906609) {
-                    return result;
-                }
             }
         }
     }
