@@ -1,6 +1,6 @@
 # Project Euler solutions in Javascript [![Build Status](https://travis-ci.org/tomastrajan/project-euler.svg?branch=master)](https://travis-ci.org/tomastrajan/project-euler)
 
-![](https://projecteuler.net/profile/tomastrajan.png)
+![](https://projecteuler.net/profile/tomastrajan.png?cachebuster=1)
 
 I decided to try to solve as much [Project Euler](https://projecteuler.net) puzzles as possible using Javascript (ECMAScript 2015).
 
