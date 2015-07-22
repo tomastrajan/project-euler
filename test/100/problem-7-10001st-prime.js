@@ -39,7 +39,6 @@ function solution(limit) {
         if (isPrime) {
             foundCount++;
             found = candidate;
-            console.log(foundCount, found);
         }
         candidate++;
     }
