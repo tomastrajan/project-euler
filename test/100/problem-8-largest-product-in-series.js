@@ -26,7 +26,7 @@ let serie = `
     71636269561882670428252483600823257530420752963450
 `;
 
-describe('Problem 7 - Largest product in a series', function() {
+describe('Problem 8 - Largest product in a series', function() {
 
     it(`
 
