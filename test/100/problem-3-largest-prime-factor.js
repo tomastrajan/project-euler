@@ -43,13 +43,11 @@ function getPrimes(limit, start = 2) {
 
     let primes = [];
 
-    let count = 0;
     for (let i = start; i < limit; i++) {
         let candidate = i;
         let test = 2;
         let isPrime = true;
         while (test < i) {
-            count++;
             if (test !== candidate && candidate % test === 0) {
                 isPrime = false;
                 break;
