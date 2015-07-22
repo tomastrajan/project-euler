@@ -2,7 +2,7 @@
 
 import { assert } from 'chai';
 
-describe.only('Problem 7 - 10001st prime', function() {
+describe('Problem 7 - 10001st prime', function() {
 
     it(`
 
